@@ -21,3 +21,13 @@ USING CLIENT HOOKS
 
     Client Side Component
     : use state  has to be the client hooks
+    : "use client" needs to be added at the top of these components
+    
+    : you wanna use the useState as down as  you can
+    : USE CLIENT AS SEPERATED AND AS DOWN AS THE COMPONENT TREE AS POSSIBLE
+    : SEPERATE THAT THING HERE
+
+usePathName :
+    - hook in next.js
+    
+

@@ -1,10 +1,16 @@
+// 'use client';
+// use client in seperate and down the componet tree
+
 import React from 'react'
 import  Image  from 'next/image';
 import LogoImage from "@/assets/logo.png"
 import Link from 'next/link';
 import classes from "@/components/main-header/main-header.module.css"
+import { usePathname } from 'next/navigation';
 
 function MainHeader() {
+  const path = usePathname();
+
   return (
     <header className={classes.header}>
         <Link className={classes.logo} href="/">
@@ -14,10 +20,10 @@ function MainHeader() {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <Link href="/meals">Browse Meals</Link>
+            <Link href="/meals"className={path.startsWith('/meals') ? classes.active : undefined} >Browse Meals</Link>
           </li>
           <li>
-            <Link href="/community">Communtity </Link>
+            <Link href="/community" className={path.startsWith('/community') ? classes.active : undefined} >Communtity </Link>
           </li>
         </ul>
       </nav>        
@@ -27,4 +33,5 @@ function MainHeader() {
 }
 
 export default MainHeader
-// well this barlelu 
+
+
