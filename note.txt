@@ -1,0 +1,1 @@
+- you have to use export default because next.js expects a single export from the whole page
