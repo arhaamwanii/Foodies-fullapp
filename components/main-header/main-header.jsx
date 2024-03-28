@@ -8,7 +8,8 @@ import MainHeaderBackground from './main-header-background';
 const mainHeader = () => {
   return (
     <>
-  <MainHeaderBackground/>
+   <MainHeaderBackground/>
+
     <header className={classes.header}>
       <Link className={classes.logo} href='/'>
         <Image src={logoImg} alt="A plate with food on it " priority/>
