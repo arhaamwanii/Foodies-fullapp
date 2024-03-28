@@ -35,3 +35,6 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+//children prop in this
