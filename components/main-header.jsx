@@ -30,10 +30,6 @@ const mainHeader = () => {
 export default mainHeader
 
 // this code in here -- the layout file in the root directory has access to the whole app 
-// 
-
-
-
 
 
 
