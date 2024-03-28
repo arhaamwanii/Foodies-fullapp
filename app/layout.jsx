@@ -1,3 +1,4 @@
+import MainHeader from '@/components/main-header/main-header';
 import './globals.css';
 
 export const metadata = {
@@ -29,8 +30,11 @@ export default function RootLayout({ children }) {
             ></path>
           </svg>
         </div>
-
+        <MainHeader/>
+        {/* showing the new component via the layout jsx */}
         {children}
+        {/* this is used to render the components inside of the wrapper */}
+        {/* that would conain the root page.jsx and the root layout.jsx  */}
       </body>
     </html>
   );

@@ -6,4 +6,4 @@ function mealsLayout() {
   )
 }
 
-export default layout
+export default mealsLayout
