@@ -59,5 +59,31 @@ ANOTHER WAY OF ROUTING
     - when there are a lot of thing
 
 
+CSS MODULES
+    - it is just plain css scoped to the files you want
+    - end with .module.css
 
-    
+    iMPORTING
+
+    - we import the file as an object
+    - then we acess the classes as object properties 
+
+
+IMAGE OPTIMIZATION
+
+    - we have an inbuilt IMAGE COMPONENT
+    - to use this image components this one has a lot of image
+
+    IMAGE COMPONENT
+
+    -import it 
+    -then use the object using which u imported the image
+        - while importing an image we receive, an object in react
+    - we have to inpu this whole object as the src
+
+    - makes the image a "webp"
+
+
+
+
+
