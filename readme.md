@@ -36,3 +36,14 @@ NEXT.JS
 
 You can make servers Components into Async function while as -- normal functions you can't
 - that is the thing there is a version of
+
+
+LOADING.JS 
+    - it will become active if anypage next to it is loading data\
+    - this file will automatically be showen when you are trying to fetch something and that thing is still loading
+    - in its deaylt it will stop the whole component and then show the Loading state
+
+    - of you put this thing in root direcory it will be used for the nested components as well
+
+
+     

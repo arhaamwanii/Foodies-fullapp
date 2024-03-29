@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import  Link  from 'next/link';
 import classes from './page.module.css'
 import { getMeals } from '@/lib/meals';
 import MealsGrid from './meals-grid';
 
-async function MealsPage() {
- const meals = await getMeals();
+async function Meals (){
+  const meals = await getMeals();
+  return       <MealsGrid meals={meals} />
+}
+
+
+function MealsPage() {
 
   return (
     <>
@@ -22,7 +27,9 @@ async function MealsPage() {
       </p>
     </header>
     <main className={classes.main}>
-      <MealsGrid meals={meals} />
+    <Suspense fallback={<p>Yeah -- it is going on using the Suspence Component : which can be used as wrapper around fetch components </p>}>
+        <Meals/>
+    </Suspense>
     </main> 
     </>
   )  
@@ -32,3 +39,4 @@ export default MealsPage
 
 
 // that was the thing for this compoenent to have rendered properly it had to be showed in the -- if a layout file existst but you have made your page to show inside of it you are done
+// 
