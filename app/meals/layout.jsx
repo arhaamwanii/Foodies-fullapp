@@ -1,6 +1,6 @@
 import React from 'react'
 
-function layout({children}) {
+function MealsLayout({children}) {
   return (
     <>
     {children}
@@ -8,4 +8,4 @@ function layout({children}) {
   )
 }
 
-export default layout
+export default MealsLayout

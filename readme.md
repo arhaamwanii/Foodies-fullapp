@@ -29,6 +29,10 @@ USING CLIENT HOOKS
 
 usePathName :
     - hook in next.js
-    - this is the start
-    
+    - this is the start and gets the current path of the thing 
 
+NEXT.JS
+    - as it runs directly on server, we can directly reach out to the data base
+
+You can make servers Components into Async function while as -- normal functions you can't
+- that is the thing there is a version of
