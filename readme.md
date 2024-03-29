@@ -45,5 +45,23 @@ LOADING.JS
 
     - of you put this thing in root direcory it will be used for the nested components as well
 
+SUSPENCE COMPONENT
+    - this is an built in wrapper component in react which can be used to make a loading scene specific to a certain part of the app
+    - it accepts the built in FALLBACK prop where it can recieve the elements that it has to show in fallback while the things are loading
 
-     
+ERROR.JS
+    - if the data base is offline or so on..
+
+NOT-FOUND.JS
+    - we can make our own custom 404 page
+
+WHEN YOU SET A ASYNC FUCNTION -- IT RETURS A "PROMISE"
+
+
+meal.instructions = meal.instructions.replace(/\n/g, '<br>');
+    - this thing here is used to replace /n in the array with <br> 
+    - easy method to do so
+
+IMAGE PICKER
+    - using an ref we can acess all the porperties of an html element via the .current property 
+    - 

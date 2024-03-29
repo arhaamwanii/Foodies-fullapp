@@ -39,4 +39,3 @@ export default MealsPage
 
 
 // that was the thing for this compoenent to have rendered properly it had to be showed in the -- if a layout file existst but you have made your page to show inside of it you are done
-// 
