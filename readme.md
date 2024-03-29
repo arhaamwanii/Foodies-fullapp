@@ -64,4 +64,10 @@ meal.instructions = meal.instructions.replace(/\n/g, '<br>');
 
 IMAGE PICKER
     - using an ref we can acess all the porperties of an html element via the .current property 
-    - 
+    
+USE SERVER
+    - it is a function it is garanteed to be executed it the server
+    - take this function and assign to an ACTION PROP
+    - action when this is clicked -- will reusult in the data to be sent to the server
+    - can't co exist with use client in the same component
+
