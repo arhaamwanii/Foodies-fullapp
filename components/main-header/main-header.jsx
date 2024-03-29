@@ -1,5 +1,5 @@
-// 'use client';
-// use client in seperate and down the componet tree
+'use client';
+
 
 import React from 'react'
 import  Image  from 'next/image';

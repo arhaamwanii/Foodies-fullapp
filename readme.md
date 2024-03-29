@@ -29,5 +29,6 @@ USING CLIENT HOOKS
 
 usePathName :
     - hook in next.js
+    - this is the start
     
 
