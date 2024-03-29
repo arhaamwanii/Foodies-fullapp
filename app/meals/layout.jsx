@@ -1,9 +1,11 @@
 import React from 'react'
 
-function mealsLayout() {
+function layout({children}) {
   return (
-    <div>layout</div>
+    <>
+    {children}
+    </>
   )
 }
 
-export default mealsLayout
+export default layout
