@@ -85,5 +85,42 @@ NEXT.JS DOES AGRESSIVE CAHAHING
 
 
     - once you input has been injected it will store that on the sever but wont render it
-    - once to refresh it or we restart the deployment server we get the same resoponse back
+    - once to refresh it or we restart the deployment server we get the same resoponse back with out the renderd info
+    - it is because next.js does some agressive cahing and pre generates the pages on the intial build process
+
+    next.js will cache this shit - so to not do that we have to do some things
+    - reevaluating the path
+    - put the   
     
+    - REVALIDATEPATH('path' , 'layout or page')
+
+    - so the given path will be revaluated once the given function is called
+    - TWO ARGUMENTS
+
+    Q- /PATHTOBEREVALIDATED
+    Q- do you want the path to be revalidated or the whole layout which contains the inner components as well
+
+    or the whole app with "/"
+
+
+ADDING THE PAGE META DATA
+    - next.js is looking for exorted files named meta data in all your layout files
+    - EXPORT const METADATA = {
+
+    }
+    - this data will be looked at by the crawlers
+    - all layout will have this 
+    - then we can also make speicfic meta data to the different pages
+
+ADDING META DATA DYNAMICALLY
+    - we need to 
+    - EXPORT ASYNC FUNCTION GENERATEMETADATA(){
+
+    }
+    - then this function needs to return the metadata 
+
+    - this function will also recieve the PARAMS PROP 
+    - using which we can set the data
+
+    - well there shop works becuase it had an aura like that
+     

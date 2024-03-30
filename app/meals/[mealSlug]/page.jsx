@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { getMeal } from '@/lib/meals.js'
 
 
+
+
 function page({params}) {
   // params will passed in as a object -- params.slug
 
@@ -44,4 +46,16 @@ export default page
 // dangereouslysetInnerHtml - opens you up for scripting attacks
 // well if there are a lot of things there are a lot of things
 // this is kind of like mapping a componet but at the same time we are making a new page route as well
+// next.js - and using its different file names
+// dynamically creatign a page -- standard react component but they are server components 
+// next.js in your future porojects working with next.js now if you are
+// app router -- 
+// pages router --
+// pages router was the only way 
+// is still fine 
+
+// well this is the thing that next.js is done
+
+
+
 
