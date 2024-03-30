@@ -14,7 +14,7 @@ function MainHeader() {
   return (
     <header className={classes.header}>
         <Link className={classes.logo} href="/">
-            <Image src={LogoImage}/>
+            <Image src={LogoImage} alt='logo of the app heee ha'/>
             Next Level Food
         </Link>
       <nav className={classes.nav}>

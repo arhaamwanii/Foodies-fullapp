@@ -71,3 +71,19 @@ USE SERVER
     - action when this is clicked -- will reusult in the data to be sent to the server
     - can't co exist with use client in the same component
 
+NEXT.JS DOES AGRESSIVE CAHAHING
+
+    - PREGENERATION
+    - moving from development to production
+    - npm run build
+    - will transfomr the code -- ito deployment ready prodcution code
+    - things get quicker
+    
+    - npm run build --- next.js pre renders all the static pages of your app, i.e the ones that can be pre generated 
+    - all the pages are prernderd on the reserver and these are then sent to the end user
+    - next.js caches these responses -> it never refethces them again
+
+
+    - once you input has been injected it will store that on the sever but wont render it
+    - once to refresh it or we restart the deployment server we get the same resoponse back
+    

@@ -5,6 +5,7 @@ import { getMeals } from '@/lib/meals';
 import MealsGrid from './meals-grid';
 
 async function Meals (){
+  console.log('Fetching Meals')
   const meals = await getMeals();
   return       <MealsGrid meals={meals} />
 }
@@ -19,7 +20,7 @@ function MealsPage() {
         Delicious meals , created{''}
         <span className={classes.highlight}> by you</span>
       </h1>
-      <p>Choose the shit you want to do, cause you don't have a lot to do yourself</p>
+      <p>Choose the shit you want to do, cause you dont have a lot to do yourself</p>
       <p className={classes.cta}>
         <Link href="/meals/share">
           Share you favourite recipie
